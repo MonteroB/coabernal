@@ -1,0 +1,309 @@
+/*variables*/
+body {
+  margin: 0px;
+  padding: 0px; }
+
+.container-fluid {
+  padding: 0px 0px; }
+
+.row {
+  padding: 0px 10px; }
+
+.navbar {
+  padding: 5px 15px;
+  background-color: #012810ff; }
+  .navbar__logo {
+    width: 50px;
+    border-radius: 2px; }
+
+.bienvenida {
+  padding: 0px 0px; }
+  .bienvenida__texto {
+    color: #ffffff;
+    font-family: "Oswald", sans-serif;
+    background-color: #000000ff;
+    padding: 10px 10px;
+    margin: 0px; }
+
+.footer {
+  padding: 0px;
+  margin: 0px; }
+  .footer__texto {
+    color: #ffffff;
+    font-family: "Oswald", sans-serif;
+    background-color: #0c166fff;
+    padding: 10px 10px;
+    margin: 0px;
+    padding-top: 0px; }
+  .footer__icon {
+    border-radius: 8px; }
+
+a {
+  color: #ffffff;
+  font-family: "Oswald", sans-serif; }
+
+.cartel {
+  color: #ffffff;
+  margin: 0px 40px;
+  border: 1px solid #edae1dff;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFE53B;
+  background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+  animation-duration: 1.5s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.cover {
+  border-left: 1px solid #ffffff;
+  position: absolute;
+  bottom: 30px;
+  left: 16px;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.cover__texto {
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+  font-size: 180%; }
+
+.cover__1 {
+  position: relative;
+  background-image: url(../images/avistaje.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 520px; }
+
+.card {
+  padding: 5px; }
+  .card :hoover {
+    border: 2px solid #000000ff; }
+
+.card-img-top {
+  width: 100%; }
+
+.card-title {
+  font-family: "Oswald", sans-serif; }
+
+.card-text {
+  font-family: "Oswald", sans-serif; }
+
+#miniGaleria {
+  padding: 40px; }
+
+@media only screen and (min-width: 880px) {
+  .navbar-expand-md {
+    display: none; } }
+
+@media only screen and (max-width: 880px) {
+  .navbar-expand-sm {
+    display: none; } }
+
+.iniciador {
+  background-color: #4f772dff;
+  padding: 5px;
+  border-left: 10px solid #edae1dff;
+  margin: 20px 0px; }
+  .iniciador__texto {
+    color: #ffffff;
+    font-family: "Oswald", sans-serif; }
+
+.tituloSeccion {
+  font-family: "Oswald", sans-serif; }
+  .tituloSeccion__decoracion {
+    border-bottom: 5px solid #edae1dff;
+    padding: 2px 0px;
+    margin: 40px 0px; }
+
+.actividad {
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+  font-size: 60px; }
+
+a :hoover {
+  color: #0c166fff;
+  background-color: #000000ff; }
+
+.actividad__fila {
+  margin: 30px 10px; }
+
+.actividad--naranja {
+  background-color: #edae1dff;
+  padding: 30px 10px;
+  width: 100%;
+  height: 100%;
+  margin-left: 0px; }
+
+.actividad--azul {
+  background-color: #0c166fff;
+  padding: 30px 10px;
+  width: 100%;
+  height: 100%;
+  margin-left: 0px; }
+
+.actividad--verde {
+  background-color: #4f772dff;
+  padding: 30px 10px;
+  width: 100%;
+  height: 100%;
+  margin-left: 0px; }
+
+/* Make the image fully responsive */
+.carousel-inner img {
+  width: 100%;
+  height: 100%; }
+
+.carousel {
+  margin: 5% 5%; }
+
+.perfiles {
+  margin: 10px 50px;
+  padding: 10px 10px; }
+
+.porqueObservar {
+  padding: 40px;
+  margin: 0px;
+  background-color: #ffffff; }
+
+.documento__link {
+  color: #0c166fff;
+  font-family: "Oswald", sans-serif;
+  border: 1px solid #0c166fff;
+  padding: 5px; }
+
+.documento__cita {
+  font-size: 12px; }
+
+.contacto {
+  background-color: #edae1dff; }
+  .contacto__icon {
+    padding: 10px; }
+  .contacto__formulario {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-family: "Oswald", sans-serif;
+    padding: 40px;
+    margin-left: 10px;
+    border-left: solid 5px #4f772dff; }
+
+input:focus {
+  width: 300px;
+  font-size: 28px; }
+
+div .gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: center; }
+  div .gallery img {
+    width: 100%;
+    height: auto; }
+  div .gallery :hoover {
+    border: 1px solid #777; }
+
+div .desc {
+  padding: 15px;
+  text-align: center;
+  font-size: 70%;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px; }
+
+#grillaAves {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: auto;
+  grid-column-gap: 40px;
+  padding-left: 30px;
+  align-items: stretch;
+  grid-template-areas: "f1 f2 f3" "f4 f2 f3" "f4 f2 f5" "f7 f6 f5" "f7 f8 f5" "f10 f8 f9" "f12 f11 f13" "f12 f11 f13" "f14 f11 f15" "f14 f16 f15" "f14 f16 f17"; }
+
+#f1 {
+  grid-area: f1; }
+
+#f2 {
+  grid-area: f2; }
+
+#f3 {
+  grid-area: f3; }
+
+#f4 {
+  grid-area: f4; }
+
+#f5 {
+  grid-area: f5; }
+
+#f6 {
+  grid-area: f6; }
+
+#f7 {
+  grid-area: f7; }
+
+#f8 {
+  grid-area: f8; }
+
+#f9 {
+  grid-area: f9; }
+
+#f10 {
+  grid-area: f10; }
+
+#f11 {
+  grid-area: f11; }
+
+#f12 {
+  grid-area: f12; }
+
+#f13 {
+  grid-area: f13; }
+
+#f14 {
+  grid-area: f14; }
+
+#f15 {
+  grid-area: f15; }
+
+#f16 {
+  grid-area: f16; }
+
+#f17 {
+  grid-area: f17; }
+
+#corredorBiologico {
+  border: none;
+  width: 1320px;
+  height: 580px; }
+
+@media only screen and (max-width: 768px) {
+  #grillaAves {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(16, 1fr);
+    grid-column-gap: 10px;
+    padding-left: 10px;
+    align-items: stretch;
+    grid-template-areas: "f1 f2" "f4 f2" "f4 f17" "f7 f6" "f7 f8" "f10 f8" "f12 f11" "f12 f11" "f14 f11" "f14 f16" "f14 f16" "f3 f5" "f3 f5" "f9 f5" "f13 f15" "f13 f15"; }
+  div .gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: center; }
+    div .gallery :hoover {
+      border: 1px solid #777; }
+    div .gallery img {
+      width: 100%;
+      height: auto; }
+  div .desc {
+    padding: 5px;
+    text-align: center;
+    font-size: 70%;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1px; }
+  #corredorBiologico {
+    border: none;
+    width: 440px;
+    height: 480px; } }
