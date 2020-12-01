@@ -18,6 +18,11 @@
   <body>
 <div class="container-fluid">
   <div class="row">
+   <div class="bienvenida col-lg-12 col-xs-12">
+       <h3 class="bienvenida__texto text-center">Club de Observadores de Aves de la Reserva Natural de Bernal</h3>
+   </div>
+  </div>
+  <div class="row">
   <!--menú bar-->
     <nav class="navbar col-lg-12 col-xs-12 navbar-expand-sm sticky-top">
       <a class="navbar-brand" href="index.html">
@@ -89,7 +94,7 @@
 <!--calendario-->
 <div class="row">
   <div class="col-lg-10 col-xs-10">
-    <section class="iniciador">
+    <section class="iniciador shadow p-2 mb-1 rounded">
       <header class="iniciador__texto display-4">Calendario de actividades</header>
       <p class="iniciador__texto">Conocé las distintas actividades que desarrollamos para disfrutar de la observación de aves a través del conocimiento y prácticas que fomentan el cuidado de la naturaleza.
       </p>
@@ -114,7 +119,7 @@
     <section class="actividad--naranja">
       <h6 class="text-center">9 de octubre</h6>
       <p class="actividad text-center">RESTAURACIÓN Y PUESTA DE CARTELERÍA</p>
-      <button type="button" class="col text-center btn btn-outline-light text-dark"><a href="pages/contacto.html">INSCRIBITE ACÁ</a></button>
+      <button type="button" class="col text-center btn btn-success text-dark"><a href="pages/contacto.html">INSCRIBITE ACÁ</a></button>
     </section>
   </div>
 </div>
@@ -123,7 +128,7 @@
     <section class="actividad--azul">
       <h6 class="text-center">15 de octubre</h6>
       <p class="actividad text-center">LIBERACIÓN DE FAUNA SILVESTRE</p>
-      <button type="button" class="col text-center btn btn-outline-light text-dark"><a href="pages/contacto.html">INSCRIBITE ACÁ</a></button>
+      <button type="button" class="col text-center btn btn-warning text-dark"><a href="pages/contacto.html">INSCRIBITE ACÁ</a></button>
     </section>
   </div>
   <div class="col-lg-6 col-xs-6">
@@ -138,7 +143,7 @@
     <section class="actividad--verde">
       <h6 class="text-center">2 de noviembre</h6>
       <p class="actividad text-center">REFORESTACIÓN CON FLORA NATIVA</p>
-      <button type="button" class="col text-center btn btn-outline-light text-dark"><a href="pages/contacto.html">INSCRIBITE ACÁ</a></button>
+      <button type="button" class="col text-center btn btn-info text-dark"><a href="pages/contacto.html">INSCRIBITE ACÁ</a></button>
     </section>
   </div>
 </div>
@@ -147,7 +152,7 @@
     <section class="actividad--naranja">
       <h6 class="text-center">11 de noviembre</h6>
       <p class="actividad text-center">CHARLA SOBRE RECURSOS HÍDRICOS</p>
-      <button type="button" class="col text-center btn btn-outline-light text-dark"><a href="pages/contacto.html">INSCRIBITE ACÁ</a></button>
+      <button type="button" class="col text-center btn btn-success text-dark"><a href="pages/contacto.html">INSCRIBITE ACÁ</a></button>
     </section>
   </div>
   <div class="col-lg-6 col-xs-6">
@@ -164,11 +169,12 @@
   </div>
 </div>
 <div class="row">
-  <div class="col-xs-12 col-lg-6">
-    <p class="text-justify">Nuestro curso abierto y gratuito de Introducción a la observación de aves incluye 4 clases teóricas semanales y 4 salidas de campo para las clases prácticas. En él aprenderás nociones básicas de biología de las aves, instrumentos y técnicas de observación, nociones de enfermedades de cautiverio y zoonosis, entre otros conocimientos. </p>
-    <button type="button" class="btn btn-primary"><a href="../pages/contacto.html">Consultá las próximas fechas de inscripción</a></button>
+  <div class="col-xs-12 col-lg-5">
+    <p class="text-justify observacion">Nuestro curso abierto y gratuito de Introducción a la observación de aves incluye 4 clases teóricas semanales y 4 salidas de campo para las clases prácticas.</p> 
+    <p class="text-justify observacion"> En él aprenderás nociones básicas de biología de las aves, instrumentos y técnicas de observación, nociones de enfermedades de cautiverio y zoonosis, entre otros conocimientos. </p>
+    <button type="button" class="btn btn-warning"><a href="../pages/contacto.html">Consultá las próximas fechas de inscripción</a></button>
   </div>
-  <div class="col-lg-6 col-xs-12">
+  <div class="col-lg-7 col-xs-12">
     <div id="demo" class="carousel slide" data-ride="carousel">
       <ul class="carousel-indicators">
         <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -177,19 +183,19 @@
       </ul>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="../images/clase-teorica.jpg" alt="Los Angeles" width="800" height="500">
+          <img src="../images/clase-teorica.jpg" alt="teoricos" width="800" height="500" class="shadow p-1 mb-1 rounded">
           <div class="carousel-caption">
             <h3>Clases teóricas</h3>
           </div>   
         </div>
         <div class="carousel-item">
-          <img src="../images/mesa-curso.jpg" alt="Chicago" width="800" height="500">
+          <img src="../images/mesa-curso.jpg" alt="herramientas" width="800" height="500" class="shadow p-1 mb-1 rounded">
           <div class="carousel-caption">
             <h3>Herramientas de aprendizaje</h3>
           </div>   
         </div>
         <div class="carousel-item">
-          <img src="../images/equipo1.jpg" alt="New York" width="800" height="500">
+          <img src="../images/equipo1.jpg" alt="salidas" width="800" height="500" class="shadow p-1 mb-1 rounded">
           <div class="carousel-caption">
             <h3>Salidas de campo</h3>
           </div>   
@@ -206,20 +212,30 @@
 </div>
 
 
-      <!--bienvenida-->
-     <div class="row">
-         <div class="bienvenida col-lg-12 col-xs-12">
-             <h3 class="bienvenida__texto">¡Bienvenido al mundo de las aves!</h3>
+  <!--footer-->
+    <div class="row footer">
+         <div class="col-lg-4 col-xs-12">
+            <p class="footer__texto">¡Bienvenido al mundo de las aves!</p>
+            <img src="../images/logo.jpg" alt="logo" class="footer__icon">
          </div>
-     </div>
-     <!--footer-->
-    <div class="row">
-         <div class="footer col-lg-12 col-xs-12">
-            <h5 class="footer__texto">Conocé mas 
-              <a href="https://www.youtube.com/channel/UCPCNfJFOMM4CD1Qrtx0NFLw/featured" target="_blanck"><img src="../images/youtube.png" alt="youtube" class="footer__icon" width="60px" height="30px"></a>
-              <a href="https://www.facebook.com/coa.bernal16" target="_blanck"><img src="../images/facebook.png" alt="facebook" class="footer__icon" width="30px" height="30px"></a>
-              <a href="https://www.instagram.com/coa.bernal/" target="_blanck"><img src="../images/instagram.png" alt="instagram" class="footer__icon" width="30px" height="30px"></a>
-            </h5>
+         <div class="col-lg-4 col-xs-12">
+           <p class="footer__texto">Conocé más sobre nosotros</p>
+             <a href="https://www.youtube.com/channel/UCPCNfJFOMM4CD1Qrtx0NFLw/featured" target="_blanck"><img src="../images/youtube.png" alt="youtube" class="footer__icon" width="80px" height="45px"></a>
+             <a href="https://www.facebook.com/coa.bernal16" target="_blanck"><img src="../images/facebook.png" alt="facebook" class="footer__icon" width="45px" height="45px"></a>
+             <a href="https://www.instagram.com/coa.bernal/" target="_blanck"><img src="../images/instagram.png" alt="instagram" class="footer__icon" width="45px" height="45px"></a>
+             <p class="footer__texto font-weight-light">Club de Observadores de Aves de la Reserva Natural de Bernal</p>
+             <p class="footer__texto font-weight-light">Bernal, Provincia de Buenos Aires, Argentina</p>
+          </div>
+          <div class="col-lg-4 col-xs-12">
+             <p class="footer__texto">Sobre el mundo de las aves</p>
+             <a href="https://www.avesargentinas.org.ar/" target="_blanck"><img src="../images/aveslogo.png" alt="Aves Argentinas" class="footer__icon" width="150px" height="130px"></a>
+             <a href="https://www.birdlife.org/" target="_blanck"><img src="../images/birdlife-logo.png" alt="BirdLife" class="footer__icon" width="300px" height="130px"></a>
+          </div>
+         
+         <div class="row">
+           <div class="col-xs-12 col-lg-12">
+             <p class="footer__texto--centrado font-weight-lighter text-center">creado por Belén Montero (2020) © </p>
+           </div>
          </div>
      </div>
 

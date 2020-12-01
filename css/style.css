@@ -1,7 +1,8 @@
 /*variables*/
 body {
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  overflow-x: hidden; }
 
 .container-fluid {
   padding: 0px 0px; }
@@ -14,33 +15,41 @@ body {
   background-color: #012810ff; }
   .navbar__logo {
     width: 50px;
+    height: auto;
     border-radius: 2px; }
 
 .bienvenida {
   padding: 0px 0px; }
   .bienvenida__texto {
     color: #ffffff;
-    font-family: "Oswald", sans-serif;
+    font-size: 70%;
     background-color: #000000ff;
-    padding: 10px 10px;
+    padding: 5px 5px;
     margin: 0px; }
 
 .footer {
-  padding: 0px;
-  margin: 0px; }
+  padding: 5px;
+  margin: 0px;
+  background-color: #0c166fff; }
   .footer__texto {
     color: #ffffff;
     font-family: "Oswald", sans-serif;
-    background-color: #0c166fff;
-    padding: 10px 10px;
-    margin: 0px;
-    padding-top: 0px; }
+    padding: 10px 0px;
+    margin: 0px; }
+  .footer__texto--centrado {
+    color: #ffffff;
+    font-family: "Oswald", sans-serif;
+    font-size: 50%;
+    padding-top: 10px; }
   .footer__icon {
-    border-radius: 8px; }
+    border-radius: 8px;
+    margin: 5px 5px; }
 
 a {
   color: #ffffff;
   font-family: "Oswald", sans-serif; }
+  a :hover {
+    text-decoration: none; }
 
 .cartel {
   color: #ffffff;
@@ -66,12 +75,14 @@ a {
   position: absolute;
   bottom: 30px;
   left: 16px;
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px; }
 
 .cover__texto {
   color: #ffffff;
   font-family: "Oswald", sans-serif;
-  font-size: 180%; }
+  font-size: 500%; }
 
 .cover__1 {
   position: relative;
@@ -103,7 +114,23 @@ a {
 
 @media only screen and (max-width: 880px) {
   .navbar-expand-sm {
-    display: none; } }
+    display: none; }
+  body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; }
+  .bienvenida {
+    display: none; }
+  .cover__texto {
+    position: relative;
+    color: #ffffff;
+    font-family: "Oswald", sans-serif;
+    font-size: 100%; }
+  .cover__1 {
+    position: relative;
+    background-image: url(../images/avistaje-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto; } }
 
 .iniciador {
   background-color: #4f772dff;
@@ -125,10 +152,6 @@ a {
   color: #ffffff;
   font-family: "Oswald", sans-serif;
   font-size: 60px; }
-
-a :hoover {
-  color: #0c166fff;
-  background-color: #000000ff; }
 
 .actividad__fila {
   margin: 30px 10px; }
@@ -166,10 +189,11 @@ a :hoover {
   margin: 10px 50px;
   padding: 10px 10px; }
 
-.porqueObservar {
-  padding: 40px;
+.observacion {
+  padding: 25px 20px;
   margin: 0px;
-  background-color: #ffffff; }
+  font-family: 'Open Sans', sans-serif;
+  font-size: 90%; }
 
 .documento__link {
   color: #0c166fff;
@@ -204,7 +228,7 @@ div .gallery {
   div .gallery img {
     width: 100%;
     height: auto; }
-  div .gallery :hoover {
+  div .gallery :hover {
     border: 1px solid #777; }
 
 div .desc {
@@ -292,7 +316,7 @@ div .desc {
     margin: 5px;
     border: 1px solid #ccc;
     float: center; }
-    div .gallery :hoover {
+    div .gallery :hover {
       border: 1px solid #777; }
     div .gallery img {
       width: 100%;
